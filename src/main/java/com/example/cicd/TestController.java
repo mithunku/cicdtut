@@ -24,32 +24,7 @@ public class TestController {
         return "test hello world";
     }
 
-    @GetMapping("/test4")
-    public String test5()
-    {
-        return "test hello world";
-    }
-    @GetMapping("/test4")
-    public String test6()
-    {
-        return "test hello world";
-    } @GetMapping("/test4")
-    public String test44()
-    {
-        return "test hello world";
-    } @GetMapping("/test4")
-    public String test464()
-    {
-        return "test hello world";
-    } @GetMapping("/test4")
-    public String test444()
-    {
-        return "test hello world";
-    } @GetMapping("/test4")
-    public String test4()
-    {
-        return "test hello world";
-    }
+
 
 
 
