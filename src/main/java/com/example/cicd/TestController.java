@@ -24,11 +24,16 @@ public class TestController {
         return "test hello world";
     }
 
-    @GetMapping("/test4")
-    public String test4()
+    @GetMapping("/testcicd")
+    public String testcicd()
     {
-        return "test hello world";
+        return "cicd working congrats on ut first cicd pipeline";
     }
+
+
+
+
+
 
 
 
