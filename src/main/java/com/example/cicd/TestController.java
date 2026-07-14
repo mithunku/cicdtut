@@ -30,6 +30,12 @@ public class TestController {
         return "cicd working congrats on ut first cicd pipeline";
     }
 
+    @GetMapping("/suprisemf")
+    public String test50()
+    {
+        return "kya reeee badwe";
+    }
+
 
 
 
