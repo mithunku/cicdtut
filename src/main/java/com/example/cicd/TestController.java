@@ -24,7 +24,7 @@ public class TestController {
         return "test hello world";
     }
 
-    @GetMapping("/testcicd")
+    @GetMapping("/cicd")
     public String testcicd()
     {
         return "cicd working congrats on ut first cicd pipeline";
