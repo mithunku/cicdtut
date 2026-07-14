@@ -3,7 +3,7 @@ name: Spring boot build and deploy
 on:
   push:
     branches:
-      -main
+      - master
 
 env:
   IMAGE_NAME: spring-boot-app
@@ -28,7 +28,7 @@ jobs:
         run: mvn clean package -DskipTests
 
       - name: Building Docker Image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}:latest .
 
       - name: docker login
         uses: docker/login-action@v4
